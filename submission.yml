@@ -1,0 +1,15 @@
+setup:
+  - command: "npm install"
+  - command: "docker-compose build"
+  - command: "docker-compose up -d"
+  - command: "sleep 5"
+  - command: "docker-compose exec -T app npm run init-db"
+
+test:
+  - command: "docker-compose exec -T app npm test"
+
+benchmark:
+  - command: "docker-compose exec -T app npm run benchmark"
+
+cleanup:
+  - command: "docker-compose down -v"
