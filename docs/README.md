@@ -12,7 +12,7 @@ A robust, high-performance content delivery API that leverages modern HTTP cachi
 - **Object Storage Integration**: Seamless integration with S3-compatible storage (MinIO, AWS S3)
 - **CDN Integration**: Automatic cache invalidation support for major CDNs (Cloudflare, CloudFront)
 - **Head Requests**: Metadata-only requests without transferring content
-- **Production-Ready**: Docker containerization, comprehensive error handling, and security features
+- **Production-Ready**: Docker containerization,comprehensive error handling, and security features
 
 ## Tech Stack
 
