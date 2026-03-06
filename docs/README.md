@@ -395,6 +395,6 @@ MIT
 ## Support
 
 For issues and questions, please refer to the documentation files:
-- [API Documentation](docs/API_DOCS.md)
+- [API Documentation](API_DOCS.md)
 - [Architecture Guide](docs/ARCHITECTURE.md)
 - [Performance Report](PERFORMANCE.md)
